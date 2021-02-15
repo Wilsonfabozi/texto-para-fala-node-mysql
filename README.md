@@ -1,10 +1,10 @@
 <h1 id="sobre">texto-para-fala-node-mysql</h1>
 <h4>Projeto de conversão de texto para fala</h4>
 
-https://img.shields.io/static/v1?label=license&message=MIT&color=95c30e
-https://img.shields.io/static/v1?label=node&message=15.8.0&color=0172b2
-https://img.shields.io/static/v1?label=react&message=16.12.0&color=0172b2
-https://img.shields.io/static/v1?label=typescript&message=3.7.4&color=0172b2
+<img src="https://img.shields.io/static/v1?label=license&message=MIT&color=95c30e" />
+<img src="https://img.shields.io/static/v1?label=node&message=15.8.0&color=0172b2" />
+<img src="https://img.shields.io/static/v1?label=react&message=16.12.0&color=0172b2" />
+<img src="https://img.shields.io/static/v1?label=typescript&message=3.7.4&color=0172b2" />
 
 Tabela de conteúdos
 =================
