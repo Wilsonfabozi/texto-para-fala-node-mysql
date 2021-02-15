@@ -1,0 +1,29 @@
+{
+    "name": "texto-para-fala-node-mysql-backend",
+    "version": "1.0.0",
+    "description": "Backend do sistema de conversão de texto para fala",
+    "author": "Wilson Fabozi",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "homepage": ".",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-promise-router": "^4.0.1",
+        "ibm-watson": "^6.0.2",
+        "jsonwebtoken": "^8.5.1",
+        "log4js": "^6.3.0",
+        "mysql2": "^2.2.5"
+    },
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.0",
+        "nodemon": "^2.0.7"
+    }
+}

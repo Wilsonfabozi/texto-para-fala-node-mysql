@@ -1,0 +1,50 @@
+.botao {
+    text-transform: none !important;
+    border: 1px solid #292929 !important;
+    border-radius: 6px !important;
+    background-color: transparent;
+    margin-top: 20px !important;
+    padding: 4px !important;
+    transition: background 500ms ease-in-out 0s, box-shadow 500ms ease-in-out 0s
+}
+
+.botao-claro {
+    background: linear-gradient(#dadada, darkgray);
+}
+
+.botao-escuro {
+    background: linear-gradient(#29295c, #0d0d14);
+}
+
+.botao-ouvir {
+    text-transform: none !important;
+    border: 1px solid #292929 !important;
+    border-radius: 6px !important;
+    background-color: transparent;
+    padding: 0px !important;
+    transition: background 500ms ease-in-out 0s, box-shadow 500ms ease-in-out 0s
+}
+
+.botao-ouvir-claro {
+    background: linear-gradient(#dadada, darkgray);
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.botao-ouvir-escuro {
+    background: linear-gradient(#29295c, #0d0d14);
+    box-shadow: 0px 3px 1px -2px rgb(0 0 139), 0px 2px 2px 0px rgb(20 0 139), 0px 1px 5px 0px rgb(0 0 139);
+}
+
+.botao-ouvir-claro:hover {
+    background: linear-gradient(darkgray, #dadada);
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.botao-ouvir-escuro:hover {
+    background: linear-gradient(#0d0d14, #29295c);
+    box-shadow: 0px 2px 4px -1px rgb(0 0 139), 0px 4px 5px 0px rgb(0 0 139), 0px 1px 10px 0px rgb(0 0 139);
+}
+
+.botao-desativado {
+    color: rgb(0 0 0 / 12%) !important
+}

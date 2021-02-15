@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "module": "es6",
+      "lib": ["es6", "dom"],
+      "rootDir": "src",
+      "outDir": "public",
+      "jsx": "react",
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "noImplicitThis": true,
+      "esModuleInterop": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "./src", 
+      "custom.d.ts"
+    ]
+  }

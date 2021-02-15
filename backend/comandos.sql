@@ -1,0 +1,9 @@
+SET time_zone='-03:00'
+
+CREATE DATABASE IF NOT EXISTS dbname
+
+CREATE TABLE IF NOT EXISTS dbname.tbname (
+    id                   INT AUTO_INCREMENT PRIMARY KEY,
+    mensagem             VARCHAR(100) NOT NULL,
+    hora                 TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)

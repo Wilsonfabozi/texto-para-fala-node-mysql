@@ -1,0 +1,12 @@
+# Arquivos do backend
+backend/node_modules
+backend/yarn.lock
+backend/yarn-error.log
+backend/package-lock.json
+
+# Arquivos do frontend
+frontend/node_modules
+frontend/yarn.lock
+frontend/yarn-error.log
+frontend/package-lock.json
+backend/.env
